@@ -1,5 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xoFPmgXs)
-# TMDB 데이터를 활용한 영화 평점 예측 서비스 개발 및 MLOps 파이프라인 구축
+# IMDB 데이터를 활용한 영화 평점 예측 서비스 개발 및 MLOps 파이프라인 구축
 ## ML 3조
 
 | ![정다영](https://avatars.githubusercontent.com/u/156163982?v=4) | ![김대섭](https://avatars.githubusercontent.com/u/156163982?v=4) | ![박성재](https://avatars.githubusercontent.com/u/156163982?v=4) | ![서효림](https://avatars.githubusercontent.com/u/156163982?v=4) | ![심우용](https://avatars.githubusercontent.com/u/156163982?v=4) |
@@ -19,7 +19,7 @@
 
 ### Overview
 
-- TMDB 데이터를 활용한 영화 평점 예측 서비스 개발 및 MLOps 파이프라인 구축
+- IMDB 데이터를 활용한 영화 평점 예측 서비스 개발 및 MLOps 파이프라인 구축
 
 ### Timeline
 
@@ -52,7 +52,8 @@ e.g. (샘플)
 
 ### Dataset overview
 
-- TMDB 데이터를 활용한 영화 평점 예측 정보
+- IMDB 데이터를 활용한 영화 평점 예측 정보
+- IMDB Link : https://www.imdb.com/
 
 ### EDA
 
@@ -108,7 +109,7 @@ e.g. (샘플)
 
 ### Meeting & Project Progress Log
 
-- _Insert your meeting log link like Notion or Google Docs_
+- 프로젝트 관리 노션 페이지 : https://www.notion.so/MLOps-3-2d05a743976581afbbcfcaa7cb89dbc5?pvs=11
 
 ### Reference
 
