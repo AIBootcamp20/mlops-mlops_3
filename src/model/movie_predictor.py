@@ -4,7 +4,7 @@ import datetime
 
 import numpy as np
 
-from src.utils.utils import model_dir
+from src.utils.utils import model_dir, save_hash
 
 
 class MoviePredictor:
@@ -48,6 +48,11 @@ class MoviePredictor:
         self.weights1 -= lr * dw1
         self.bias1 -= lr * db1
 
+    def load_state_dict(self, state_dict):
+        self.weights1 = state_dict["weights1"]
+        self.bias1 = state_dict["bias1"]
+        self.weights2 = state_dict["weights2"]
+        self.bias2 = state_dict["bias2"]
 
 def model_save(model, model_params, epoch, loss, scaler, label_encoder):
     save_dir = model_dir(model.name)
@@ -73,5 +78,7 @@ def model_save(model, model_params, epoch, loss, scaler, label_encoder):
     # 데이터 저장
     with open(dst, "wb") as f:
         pickle.dump(save_data, f)
+
+    save_hash(dst)
 
     print(f"Model saved to {dst}")
